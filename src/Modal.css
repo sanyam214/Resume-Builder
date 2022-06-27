@@ -1,0 +1,63 @@
+.modal-footer {
+    display: flex;
+    justify-content: flex-start !important;
+    padding: 1rem 0.5rem;
+}
+.modal-header{
+    padding: 1rem 0.5rem;
+}
+.save-btn {
+    padding: 13px 16px;
+    gap: 24px;
+    width: 68px;
+    height: 40px;
+    background-color: #008392;
+    border-radius: 6px;
+}
+.modal-input {
+    width: 465px;
+    height: 40px;
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.modal-date {
+    width: 230px;
+    height: 40px;
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    outline: none;
+}
+.date-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.modal-heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.modal-textarea {
+    width: 465px;
+    height: 120px;
+    margin-bottom: 15px;
+    border: 1px solid #EBEBEB;
+    border-radius: 4px;
+    outline: none;
+}
+.addnew-btn {
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: 1px solid silver;
+    outline: none;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}

@@ -1,0 +1,75 @@
+.Collapsible {
+    width: 70%;
+    border: 1px solid silver;
+    text-align: left;
+    padding-top: 8px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.checklist {
+    width: 20px;
+    height: 20px;
+}
+.accordion-wrapper {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 69%;
+    position: absolute;
+    margin-bottom: 12px;
+    margin-right: 16px;
+}
+.accordion-icon {
+    width: 13px;
+    text-align: left;
+    position: absolute;
+    margin-left: 10px;
+}
+.Collapsible-content {
+    padding: 30px;
+    border-top: 0px;
+}
+.accordionlist-heading {
+    width: 880px;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+p{
+    text-align: left;
+}
+.buttonWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.editbtn, .deletebtn {
+    width: 80px;
+    outline: none;
+    border: 1px solid silver;
+    background-color: white;
+    height: 40px;
+    margin-right: 14px;
+}
+.Collapsible__trigger{
+    width: 120px;
+    border: 1px solid silver;
+    font-weight: bolder;
+    height: 40px;
+    display: contents;
+    margin-left: 10px;
+}
+.CollapsibleWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
